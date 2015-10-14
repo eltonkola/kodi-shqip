@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
-    <addon id="kodi.shqip" name="KodiShqip" version="0.0.1" provider-name="KodiShqip">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="KodiShqip">
-            <info compressed="false">https://kodi-shqip.herokuapp.com/_repo/addons.xml</info>
-            <checksum>https://kodi-shqip.herokuapp.com/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://kodi-shqip.herokuapp.com/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Tv, Filma, Muzike, Radio, Gjitjcka per ju!</summary>
-            <description>Miresevini[CR] Tv, Filma, Muzike, Radio, Gjitjcka per ju.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.radionl" name="Radio NL" version="1.0.0" provider-name="Beerkeeper">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -39,4 +21,3 @@
         <source></source>
     </extension>
 </addon>
-</addons>
